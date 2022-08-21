@@ -58,7 +58,7 @@ body, html {
 
 .description {
     color: var(--grey-text);
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-bottom: var(--content-padding-left);
 }
 
@@ -81,7 +81,7 @@ body, html {
 
 .title {
     font-weight: bold;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .price-container {
@@ -92,7 +92,7 @@ body, html {
 .price {
     color: var(--green);
     font-weight: bold;
-    font-size: 3em;
+    font-size: 2em;
     font-family: "Fraunces";
 }
 
