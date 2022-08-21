@@ -131,4 +131,10 @@ body, html {
     .card-image {
         height: 100%;
     }
+
+    .card-info-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
