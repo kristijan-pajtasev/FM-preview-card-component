@@ -24,3 +24,11 @@ body, html {
     border-radius: var(--card-border-radius);
     overflow: hidden;
 }
+
+.card-image {
+    width: 100%;
+}
+
+.card-info-content {
+    padding: var(--card-padding);
+}
