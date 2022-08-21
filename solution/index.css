@@ -104,3 +104,20 @@ body, html {
     margin-left: 10px;
     font-family: "Fraunces";
 }
+
+@media screen and (min-width: 768px) {
+    .card-container {
+        max-width: 600px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card-container>* {
+        flex: 1;
+    }
+
+    .card-image {
+        height: 100%;
+    }
+}

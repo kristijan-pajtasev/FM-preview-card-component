@@ -7,8 +7,13 @@
 <body>
 <div class="container">
     <div class="card-container">
+<!--        src="image-product-mobile.jpg"-->
         <div>
-            <img class="card-image" src="image-product-mobile.jpg" alt="mobile image"/>
+            <img class="card-image"
+                 srcset="image-product-desktop.jpg 1440w, image-product-mobile.jpg 375w"
+                 sizes="(max-width: 1440px) 375px,
+            800px"
+                 src="image-product-mobile.jpg" alt="mobile image"/>
         </div>
         <div class="card-info-content">
             <h3 class="category">Parfume</h3>
