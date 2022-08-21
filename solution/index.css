@@ -16,7 +16,7 @@ body, html {
 }
 
 .container {
-
+    padding: var(--content-padding-top) var(--content-padding-left);
 }
 
 .card-container {
