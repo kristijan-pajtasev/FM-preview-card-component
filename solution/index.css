@@ -9,10 +9,15 @@
     --card-background: #fff;
     --card-border-radius: 15px;
     --card-padding: 15px;
+    --text-white: #fff;
 }
 
 body, html {
     background: var(--background);
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .container {
@@ -41,4 +46,21 @@ body, html {
 
 .description {
     color: var(--grey-text);
+}
+
+.button-container {
+    margin-top: var(--content-padding-top);
+    width: 100%;
+    padding: 0 var(--content-padding-left)
+}
+
+.button {
+    background: var(--green);
+    color: var(--text-white);
+    padding: var(--content-padding-left) calc(2 * var(--content-padding-left));
+    border-radius: var(--card-border-radius);
+    font-weight: bold;
+    font-size: 1.2em;
+    display: inline-block;
+    width: 100%;
 }
