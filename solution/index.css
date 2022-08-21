@@ -2,4 +2,10 @@
     --background: #f3eae3;
     --green: #3d8168;
     --grey-text: #acabb9;
+    --desktop-width: 1px;
+    --content-padding: 1px;
+}
+
+body, html {
+    background: var(--background);
 }
