@@ -32,3 +32,13 @@ body, html {
 .card-info-content {
     padding: var(--card-padding);
 }
+
+.category {
+    color: var(--grey-text);
+    text-transform: uppercase;
+    letter-spacing: .5em;
+}
+
+.description {
+    color: var(--grey-text);
+}
