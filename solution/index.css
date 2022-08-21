@@ -2,8 +2,10 @@
     --background: #f3eae3;
     --green: #3d8168;
     --grey-text: #acabb9;
-    --desktop-width: 1px;
-    --content-padding: 1px;
+    --desktop-height: 600px;
+    --desktop-width: 450px;
+    --content-padding-left: 15px;
+    --content-padding-top: 30px;
 }
 
 body, html {
