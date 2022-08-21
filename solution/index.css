@@ -6,8 +6,21 @@
     --desktop-width: 450px;
     --content-padding-left: 15px;
     --content-padding-top: 30px;
+    --card-background: #fff;
+    --card-border-radius: 15px;
+    --card-padding: 15px;
 }
 
 body, html {
     background: var(--background);
+}
+
+.container {
+
+}
+
+.card-container {
+    background: var(--card-background);
+    border-radius: var(--card-border-radius);
+    overflow: hidden;
 }
