@@ -47,12 +47,13 @@ body, html {
 .description {
     color: var(--grey-text);
     font-size: 1.5em;
+    margin-bottom: var(--content-padding-left);
 }
 
 .button-container {
     margin-top: var(--content-padding-top);
     width: 100%;
-    padding: 0 var(--content-padding-left)
+    padding: 0 var(--content-padding-left);
 }
 
 .button {
@@ -68,4 +69,24 @@ body, html {
 
 .title {
     font-weight: bold;
+    font-size: 3em;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    color: var(--green);
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.discounted-price {
+    font-weight: bold;
+    color: var(--grey-text);
+    text-decoration: line-through;
+    vertical-align: center;
+    margin-left: 10px;
 }
