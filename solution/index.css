@@ -1,7 +1,7 @@
 :root {
-    --background: #f3eae3;
-    --green: #3d8168;
-    --grey-text: #acabb9;
+    --background: hsl(30, 38%, 92%);
+    --green: hsl(158, 36%, 37%);
+    --grey-text: hsl(228, 12%, 48%);
     --desktop-height: 600px;
     --desktop-width: 450px;
     --content-padding-left: 15px;
@@ -16,8 +16,20 @@ body, html {
     background: var(--background);
 }
 
+@font-face {
+    font-family: "Montserrat";
+    src: url("Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Fraunces";
+    src: url("Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf") format("truetype");
+}
+
 * {
     box-sizing: border-box;
+    font-family: "Montserrat";
+    font-size: 14px;
 }
 
 .container {
@@ -35,7 +47,7 @@ body, html {
 }
 
 .card-info-content {
-    padding: var(--card-padding);
+    padding: 30px;
 }
 
 .category {
@@ -53,7 +65,6 @@ body, html {
 .button-container {
     margin-top: var(--content-padding-top);
     width: 100%;
-    padding: 0 var(--content-padding-left);
 }
 
 .button {
@@ -65,6 +76,7 @@ body, html {
     font-size: 1.2em;
     display: inline-block;
     width: 100%;
+    border: none;
 }
 
 .title {
@@ -81,6 +93,7 @@ body, html {
     color: var(--green);
     font-weight: bold;
     font-size: 3em;
+    font-family: "Fraunces";
 }
 
 .discounted-price {
@@ -89,4 +102,5 @@ body, html {
     text-decoration: line-through;
     vertical-align: center;
     margin-left: 10px;
+    font-family: "Fraunces";
 }
